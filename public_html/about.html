@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+        <!--remember to anchor about and contact form in navbar!-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <!--April Russo Photography-->
+                    <img class="hello" src="images/logo/logo.png" />
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li ><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="about.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery <span class="caret"></span></a>
+                        <ul class="dropdown-menu active">
+                            <li class="active"><a href="babies.html">Newborn / Baby's</a></li>
+                            <li><a href="babies.html#children">Children</a></li>
+                            <li><a href="babies.html#graduation">Graduation</a></li>
+                            <li><a href="babies.html#engagement">Engagement</a></li>
+                            <li><a href="babies.html#family">Family</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="about.html#contact">Contact</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-lg-4 col-sm-pull-0" id="photo">
+                    <img class="img-responsive" src="images/logo/April.jpg" />
+                </div>
+                <div class="col-lg-8 col-sm-push-0">
+                    <p>My name is April Russo. I am married to my grade-school sweetheart, a mommy to a beautiful 2-year-old little girl (my favorite model!) and a full time college student majoring in business management. This will help me in my goal of opening up my own studio someday!</p>
+                    <p>I love capturing memories that families will cherish for a lifetime. I feel honored when a family asks me to capture once in a lifetime memory, like their precious newborn, their child’s birthday, a senior about to graduate, an engagement, announcement of pregnancy, or a family photo! No event is too small to capture!</p>
+                    <p>I have 2 years of experience and continue to grow in my knowledge to be the best at what I love! Thank you for taking the time to see my work and learn about me!! </p>
+                </div>
+            </div>
+        </div>
+        <!--Insert the contact form here-->
+        <br />
+        <!-- a row has to be in a container -->
+        <div class="container" id="contact">
+            <!-- Contacts -->
+            <div id="contacts">
+                <div class="row">
+                    <!-- Alignment -->
+                    <div class="col-sm-offset-3 col-sm-6">
+                        <!-- Form itself -->
+                        <form name="sentMessage" class="well" id="contactForm" novalidate>
+                            <h2>Contact me</h2>
+                            <p>Schedule your photo shoot today!  Please include the requested date in your message.</p><br />
+                            <div class="control-group">
+                                <div class="controls">
+                                    <input type="text" class="form-control"
+                                           placeholder="Full Name" id="name" required
+                                           data-validation-required-message="Please enter your name" />
+                                    <p class="help-block"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <input type="email" class="form-control" placeholder="Email"
+                                           id="email" required
+                                           data-validation-required-message="Please enter your email" />
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <div class="controls">
+                                    <textarea rows="10" cols="100" class="form-control"
+                                              placeholder="Message" id="message" required
+                                              data-validation-required-message="Please enter your message" minlength="5"
+                                              data-validation-minlength-message="Min 5 characters"
+                                              maxlength="999" style="resize:none"></textarea>
+                                </div>
+                            </div>
+                            <div id="success"> </div> <!-- For success/fail messages -->
+                            <button type="submit" class="btn btn-primary pull-right">Send</button><br />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/jqBootstrapValidation.js"></script>
+    <script src="Scripts/contact_me.js"></script>
+</body>
+</html>

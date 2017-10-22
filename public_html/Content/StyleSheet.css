@@ -1,0 +1,113 @@
+﻿html, body, div, h3, p, ul, li, img{
+    margin:0;
+    padding:0;
+}
+article, aside, figure, footer, header, hgroup, menu, nav, section{
+    display: block;
+}
+body {
+    background-color:#f8f8f8;
+    max-width: 1080px;
+    margin:auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.container2{
+    /*width:1000px;*/
+    margin:10px auto 0;
+}
+header{
+    border-bottom: solid black;
+}
+header h3{
+    padding-top:3px;
+    padding-bottom:3px;
+    font-size:16px;
+    word-spacing:1px;
+    text-shadow:1px 1px 2px black;
+}
+#navLogo{
+    height:100%;
+    width:auto;
+    background-color:transparent;
+    margin:0px;
+    padding:0px;
+}
+#content{
+    background:#848c9c;
+    background: linear-gradient(to top, #f8f8f8 0%, #797589 50%, #f8f8f8 100%);
+    background: -webkit-linear-gradient(bottom, #f8f8f8 0%, #797589 50%, #f8f8f8 100%);
+    padding-top:30px;
+    padding-bottom:30px;
+    overflow:hidden;
+}
+.container-fluid li{
+    list-style:none;
+    /*margin-left:auto;*/
+}
+}
+footer{
+    background-color:#222222;
+    border-top:thin solid black;
+
+}
+html > body footer p{
+    color:black;
+    text-align:left;
+    font-size:16px;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left:15px;
+    border-top: thin solid #e7e7e7;
+}
+.hello{
+    font-family: 'Amatic SC', cursive; 
+    text-shadow: 2px 2px 8px #5c2274;
+    margin:0px;
+    margin-bottom:20px;
+    padding:0px;
+    color:#000000;
+    max-width:100%;
+    max-height:100%;
+}
+.container2 ul li{
+    margin-bottom: 20px;
+}
+.img-thumbnail:hover{
+    background-color:mediumpurple;
+}
+.img-centered{
+    text-align:center;
+}
+.img-thumbnail img {
+    border-radius: 4px;
+}
+#photo{
+    float:left;
+
+}
+.brakes{
+    border-bottom:thin solid black;
+    margin-bottom: 20px;
+}
+#priceList li{
+    list-style:none;
+}
+#squigly{
+    overflow:hidden;
+    margin:0;
+    padding: 5px;
+     background:#848c9c;
+    background: linear-gradient(to top, #f8f8f8 0%, #797589 50%, #f8f8f8 100%);
+    background: -webkit-linear-gradient(bottom, #f8f8f8 0%, #797589 50%, #f8f8f8 100%);
+    padding-top:30px;
+    padding-bottom:30px;
+    overflow:hidden;
+}
+#priceDiv{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 15px;
+}
+#photoStrech{
+    margin-bottom: 15px;
+}
